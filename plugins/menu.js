@@ -225,19 +225,18 @@ const test = async (m, Matrix) => {
 *🌐 𝗠𝗢𝗥𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗖𝗢𝗠𝗜𝗡𝗚 𝗦𝗢𝗢𝗡! 🌐
 
 ╭───────────❍
-│😇𝗥𝗘𝗚𝗔𝗥𝗗𝗦 𝗕𝗥𝗨𝗖𝗘 𝗕𝗘𝗥𝗔😇
+│😇𝗥𝗘𝗚𝗔𝗥𝗗𝗦 𝗝𝗢𝗦𝗛𝗨𝗔 𝗠𝗔𝗠𝗕𝗢😇
 ╰───────────❍`;
 
     await Matrix.sendMessage(m.from, {
-      image: fs.readFileSync('./media/popkid.jpg'),
+      image: fs.readFileSync('https://i.postimg.cc/GmRpKL8j/1717623406802.jpg'),
       caption: str,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363290715861418@newsletter',
-          newsletterName: "𝙥𝙤𝙥𝙠𝙞𝙙",
+          newsletterName: "𝗝𝗢𝗦𝗛𝗨𝗔𝗠𝗔𝗠𝗕𝗢 𝗫𝗠𝗗",
           serverMessageId: 143
         }
       }
@@ -247,7 +246,7 @@ const test = async (m, Matrix) => {
 
     // Send audio after sending the menu
     await Matrix.sendMessage(m.from, {
-      audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+      audio: { url: 'https://files.catbox.moe/vkhvuv.mp4' },
       mimetype: 'audio/mp4',
       ptt: true
     }, { quoted: m });
