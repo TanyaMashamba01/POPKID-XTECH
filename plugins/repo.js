@@ -28,15 +28,14 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/5kvvfg.jpg" },
+          image: { url: "https://b.top4top.io/p_3291qwfqu0.jpg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363299029326322@newsletter",
-              newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+              newsletterName: "JᴏsʜKɪɴɢ",
               serverMessageId: 143,
             },
           },
@@ -48,7 +47,7 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          audio: { url: "https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/repo.m4a" },
+          audio: { url: "https://files.catbox.moe/vkhvuv.mp4" },
           mimetype: "audio/mp4",
           ptt: true,
           contextInfo: {
@@ -56,8 +55,7 @@ const repo = async (m, gss) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363299029326322@newsletter",
-              newsletterName: "ᴅᴇᴍᴏɴ sʟᴀʏᴇʀ",
+              newsletterName: "Jᴏsʜᴜᴀᴍᴀᴍʙᴏ xᴍᴅ",
               serverMessageId: 143,
             },
           },
